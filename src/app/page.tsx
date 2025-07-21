@@ -60,7 +60,7 @@ export default function Home() {
             Köszi! Tali a táborban :))
           </ol>
         </main>
-        <footer className = "row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
+        <footer className = "row-start-3 flex text-sm flex-wrap items-center justify-center">
           A domain-t a <a href='https://www.kir-dev.hu' className='underline'>Kir-Dev</a>-től kaptuk, köszönet nekik érte.
         </footer>
       </div>
