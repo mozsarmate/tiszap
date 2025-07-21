@@ -44,7 +44,7 @@ export default function Home() {
           </a>
           <a
               className = "rounded-full border border-solid border-2 border-black transition-colors flex items-center justify-center hover:bg-[#f2f2f2] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto gap-4"
-              href = "https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+              href = "https://apps.apple.com/fi/app/tiszapp/id6451455483"
               target = "_blank"
               rel = "noopener noreferrer"
           >
@@ -61,7 +61,7 @@ export default function Home() {
           </ol>
         </main>
         <footer className = "row-start-3 flex text-sm flex-wrap items-center justify-center">
-          A domain-t a <a href='https://www.kir-dev.hu' className='underline'>Kir-Dev</a>-től kaptuk, köszönet nekik érte.
+          A domain-t a <a target='_blank' href='https://www.kir-dev.hu' className='underline'>Kir-Dev</a>-től kaptuk, köszönet nekik érte.
         </footer>
       </div>
 );
