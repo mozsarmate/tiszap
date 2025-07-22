@@ -30,7 +30,9 @@ export default function Home() {
           
           <a
               className = "rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#444] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto gap-4"
-              href = "https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+              href = "/tiszapp.apk"
+              download = "tiszapp.apk"
+              
               target = "_blank"
               rel = "noopener noreferrer"
           >
@@ -60,8 +62,10 @@ export default function Home() {
             Köszi! Tali a táborban :))
           </ol>
         </main>
-        <footer className = "row-start-3 flex text-sm flex-wrap items-center justify-center">
-          A domain-t a <a target='_blank' href='https://www.kir-dev.hu' className='underline'>Kir-Dev</a>-től kaptuk, köszönet nekik érte.
+        <footer className = "row-start-4 flex text-sm flex-wrap items-center justify-center">
+          <a target='_blank' href='https://www.kir-dev.hu'>
+            A hostingot a Kir-Dev-től kaptuk, köszönet nekik érte.
+          </a>
         </footer>
       </div>
 );
